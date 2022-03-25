@@ -1,2 +1,4 @@
 # dotfiles
 dotfiles
+
+Credits - OhMyZsh
