@@ -1,6 +1,8 @@
 # GLOBAL ALIASES
-alias -g dryaml='--dry-run=client -o yaml'
+# alias -g dryaml='--dry-run=client -o yaml' // throwing error in bash, comment out in zsh 
 alias kc='kubectl create'
+alias kd='kubectl describe'
+alias kdel='kubectl delete'
 
 
 # kubernetes Aliases
