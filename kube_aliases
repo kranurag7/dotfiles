@@ -1,13 +1,14 @@
 # GLOBAL ALIASES
 # alias -g dryaml='--dry-run=client -o yaml' // throwing error in bash, comment out in zsh 
+# Important when you're using Custom Resources 
 alias kc='kubectl create'
 alias kd='kubectl describe'
 alias kdel='kubectl delete'
-
+alias ke='kubectl edit'
 
 # kubernetes Aliases
 # This command is used a LOT both below and in daily life
-alias k=kubectl
+alias k='kubectl'
 
 # Apply a YML file
 alias kaf='kubectl apply -f'
@@ -34,6 +35,8 @@ alias kep='kubectl edit pods'
 alias kdp='kubectl describe pods'
 alias kdelp='kubectl delete pods'
 alias kgpall='kubectl get pods --all-namespaces -o wide'
+alias kgpsl='kubectl get pods --show-labels'
+alias kgpsla='kubectl get pods --show-labels -A'
 
 # get pod by label: kgpl "app=myapp" -n myns
 alias kgpl='kgp -l'
