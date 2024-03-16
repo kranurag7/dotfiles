@@ -61,7 +61,6 @@ if command -v git &> /dev/null
 
     ### commits
     abbr -a gcs 'git commit -s -v' # opens up your default git editor
-    abbr -ag gcss 'git commit -S -s -v'
     abbr -ag gcan 'git commit --amend --no-edit'
 
     alias glo 'git log --color=always --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit'
