@@ -16,7 +16,7 @@ if command -v git &> /dev/null
     end
 
     abbr -a g 'git'
-    abbr -a gb 'git branch -v'
+    abbr -a gb 'git branch -vv'
     abbr -a gbr 'git branch -r' # list remote branches
     abbr -ag gbm 'git branch --merged'
 
